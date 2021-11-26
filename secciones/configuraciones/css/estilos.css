@@ -1,0 +1,231 @@
+@font-face {
+    font-family:big;
+    src: url(../fuentes/bBigerOver.ttf);
+}
+
+
+body {
+    background-image: url('../imagenes/warzone.jpg');
+    background-size: 80vw;
+    background-position-x:center;
+    -webkit-background-size:cover;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: #4A235A;
+}
+
+.titulo {
+    color: white;
+    margin-left: 5%;
+    font-family:"big";
+    font-size: 50px;
+}
+
+.edit {
+    max-width: 1200px;
+    margin:auto;
+    font-size: 15px;
+    margin-top: 50px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content:space-around;
+}
+
+.menu li a {
+    display: block;
+    padding: 15px 20px;
+    color:white;
+    text-decoration: none;
+}
+
+.menu li:hover {
+    background-color:#20002c;
+}
+
+.despliegue {
+    position: absolute;
+    display: none;
+    list-style: none;
+     width: 200px;
+    background-color:#4a235ada;}
+
+.menu li:hover .despliegue{
+    display: block;
+}
+
+.despliegue li:hover{
+    background-color:#290038;
+}
+
+.despliegue li a{
+    display: block;
+    color: #ffffff;
+    padding: 15px 15px 15px 15px 20px;
+}
+
+.info {background-color: #ffffff75;
+    margin: auto;
+    text-align: center;
+    font-family: "big";
+    font-size: 2vw;
+    max-width: 1000px;
+}
+
+.instrucciones {width: 600px;
+    height: auto;
+    border: 5px solid;
+    border-radius: 2vh;
+}
+
+.igicono {width:8vh;
+    position:fixed;
+    top: 60%;
+    right: 2.5%;
+}
+
+.tticono {width:8vh;
+    position:fixed;
+    top: 70%;
+    right: 2.5%;
+}
+
+.ticono {width:8vh;
+    position:fixed;
+    top: 80%;
+    right: 2.5%;
+}
+
+.instruccionesmenu {background-color: #4A235A;
+    color: white;
+    font-family:"big";
+    text-align: center;
+}
+
+.carrusel {width:80vw;
+}
+
+.carruselback {background-color: #ffffff75;
+    max-width: 90vw;
+    text-align: center;
+    margin: auto;
+    font-family: "big";
+
+}
+
+
+
+h5 {font-size: 0.75vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.infoconfig {background-color: #ffffff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.configimg {max-width: 62vw;
+
+}
+
+.config {background-color: #ffffff00;
+    font-size: 1.2vw;
+    width: 100%;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: auto;
+}
+
+footer {background-color:#4A235A;
+    color: #ffffff;
+    
+}
+
+@media (max-width:575px){body{background-image: url('../imagenes/warzonvertical.jpg');
+}
+}
+
+@media (max-width:575px){.titulo{font-size: 30px;
+}
+}
+
+@media (max-width:575px){.edit{font-size: 55%;
+    margin-right: 10%;
+}
+}
+
+@media (max-width:575px){.carruselback{font-size:95%;
+    max-width: 300px;
+}
+}
+
+@media (max-width:575px){h5{font-size: 10px;
+}
+}
+
+@media (max-width:767px) {h5{font-size:10px;
+}
+    
+}
+
+@media (max-width:1199px) {h5{font-size:15px;
+}
+    
+}
+
+@media (max-width:575px) {.configimg{max-width:350px;
+}
+}
+
+@media (max-width:767px) {.configimg{max-width:500px;
+}
+}
+
+@media (max-width:991px) {.configimg{max-width:700px;
+}
+}
+
+@media (max-width:575px) {.config{font-size: 5px;
+}
+}
+
+@media (max-width:575px) {.info{font-size: 5px;
+    max-width: 300px
+}
+}
+
+@media (max-width:767px) {.config{font-size: 25px;
+}
+}
+
+@media (max-width:767px) {.info{font-size: 35px;
+}
+}
+
+@media (max-width:991px) {.config{font-size: 40px;
+}
+}
+
+@media (max-width:991px) {.info{font-size: 45px;
+}
+}
+
+@media (max-width:1199px) {.config{font-size: 55px;
+}
+}
+
+@media (max-width:1199px) {.info{font-size: 15px;
+}
+}
+
+@media (max-width:575px) {.configimg{max-width: 300px;
+}
+}
+
+@media (max-width:575px) {.config{max-width: 300px;
+    font-size: small;
+}
+}
